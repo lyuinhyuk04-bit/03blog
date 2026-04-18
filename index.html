@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>류인혁 | Developer Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="layout">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="profile-card" id="profile-container">
+                <!-- Profile Injected via JS -->
+            </div>
+            
+            <nav class="sidebar-nav">
+                <a href="#home" class="nav-item"><i data-lucide="book-open"></i> <span>Home</span></a>
+                <a href="#about" class="nav-item"><i data-lucide="user"></i> <span>About Me</span></a>
+                <a href="#" target="_blank" class="nav-item" id="github-link"><i data-lucide="github"></i> <span>GitHub</span></a>
+            </nav>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main id="router-view" class="content-area">
+            <!-- Dynamic Content -->
+        </main>
+    </div>
+    
+    <!-- Data & Scripts -->
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
